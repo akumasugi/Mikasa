@@ -29,13 +29,9 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://c.tenor.com/oSQvUimhICgAAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4",
-			"https://c.tenor.com/FTryuAk9O1sAAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4",
-			"https://c.tenor.com/OdR8EigUHfoAAAPo/elaina-mage.mp4",
-			"https://c.tenor.com/S_fOSRz1ngcAAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4",
-			"https://c.tenor.com/uG_QJUDWKm0AAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4",
-			"https://c.tenor.com/rRaAZM3KYqcAAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4",
-			"https://c.tenor.com/36P-Xu4XxRMAAAPo/elaina-anime.mp4",
+			"https://c.tenor.com/lWef8qSViRYAAAPo/aot-mikasa.mp4",
+			"https://c.tenor.com/dPHM88QF5ogAAAPo/mikasa.mp4",
+			
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -46,7 +42,7 @@ export default class Command extends BaseCommand {
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
 		for (let i = 0; i < chats.length; i++) {
-			const text = `*💕「ELAINA BROADCAST」💕*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+			const text = `*⚔️「MIKASA BROADCAST」⚔️*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
 			this.client.sendMessage(chats[i], { url: selected }, MessageType.video, {
 				mimetype: Mimetype.gif,
 				caption: `${text}`,
