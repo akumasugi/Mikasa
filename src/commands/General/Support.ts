@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage): Promise<void> => {
         (await this.client.sendMessage(
         M.sender.jid,
-        `    ♥️ SUPPORT ♥️\n\n*🎇 Mikasa support:🎇* *https://bit.ly/2Z6cJDO*\n\n*SURPRISE*:*https://bit.ly/2Z6cJDO*`,
+        `    ♥️ SUPPORT ♥️\n\n*⚔️ Mikasa support:⚔️* *https://chat.whatsapp.com/EeIT4nf7PBUD8Kwbm4FgJC*\n\n*My Insta*:*https://www.instagram.com/akuma__24/?hl=en*`,
            MessageType.text
         ))
         const n = [
