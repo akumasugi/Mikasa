@@ -12,8 +12,8 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/AT3NA/mikasabot/blob/main/README.md",
-  "repository": "https://github.com/AT3NA/mikasabot.git",
+  "website": "https://github.com/akumasugi/Mikasa/blob/main/README.md",
+  "repository": "https://github.com/akumasugi/Mikasa.git",
   "logo": "https://static.wikia.nocookie.net/majo-no-tabitabi/images/2/2c/Elaina.png/revision/latest/top-crop/width/720/height/900?cb=20201007034555",
   "success_url": "/",
   "env": {
