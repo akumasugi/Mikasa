@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-                                captain:'*MIKASA* \n\n☘️ *Description: repo is private better luck next time.*\n\n⚔️ *insta id: https://www.instagram.com/akuma__24/?hl=en* \n ⚔️\n`,
+                                captain:'⚔️*MIKASA*⚔️ \n\n☘️ *Description: repo is private better luck next time.*\n\n⚔️ *insta id: https://www.instagram.com/akuma__24/?hl=en* \n ⚔️\n`,
 			}
 		);
 	};
