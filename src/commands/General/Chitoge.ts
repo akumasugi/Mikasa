@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `💕 *Mikasa* 💕\n\n🍀 *Description: A WhatsApp Bot developed by *AT3NA* With Rich Anime features based on MIKASABOT.*\n\n🌐 *OFFICIAL BOT URL:https://github.com/AT3NA/mikasabot* \n\n 📒 *Guide:https://github.com/Ronen6999/Elaina-bot* \n\n 👾 *BOT URL:https://github.com/AT3NA/mikasabot* \n`,
+                                captain:'*MIKASA* \n\n☘️ *Description: repo is private better luck next time.*\n\n⚔️ *insta id: https://www.instagram.com/akuma__24/?hl=en* \n ⚔️\n`,
 			}
 		);
 	};
