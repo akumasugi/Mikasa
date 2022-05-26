@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            'https://c.tenor.com/lSzLXSczGVEAAAPo/mikasa.mp4'
+            'https://telegra.ph/file/c8461373a029d420e2d7b.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
 	if (!parsedArgs.joined) {
@@ -43,9 +43,9 @@ export default class Command extends BaseCommand {
 				}
 			}
             let text = `
-╭─「(づ￣ 3￣)づ」
+╭─「(◕ᴗ◕✿)」
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: MIKASA ⚔️
+│⋊ ℕ𝕒𝕞𝕖: 𝐌𝐈𝐊𝐀𝐒𝐀 ⚔️
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: 𝐀𝐊𝐔𝐌𝐀
 │⋊ 𝕄𝕪 𝕀𝕟𝕤𝕥𝕒 𝕀𝔻: https://www.instagram.com/akuma__24/?hl=en
@@ -62,7 +62,7 @@ export default class Command extends BaseCommand {
             caption: `${text} 
  ──❅┈[ *MIKASA* 𝑩𝒐𝒕 ]┈❅───
 ┌────────────┈❅
-│   ⚔️ MIKASA ⚔️
+│   ⚔️ 𝐌𝐈𝐊𝐀𝐒𝐀 ⚔️
 │   ©️ 𝐀𝐊𝐔𝐌𝐀
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
