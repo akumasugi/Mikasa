@@ -44,11 +44,10 @@ export default class Command extends BaseCommand {
 			}
             let text = `
 ╭─「(◕ᴗ◕✿)」
-│⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: 𝐌𝐈𝐊𝐀𝐒𝐀 ⚔️
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: 𝐀𝐊𝐔𝐌𝐀
-│⋊ 𝕄𝕪 𝕀𝕟𝕤𝕥𝕒 𝕀𝔻: https://www.instagram.com/akuma__24/?hl=en
+│⋊ 𝐔𝐬𝐞𝐫: *${M.sender.username}*
+│⋊ 𝐍𝐚𝐦𝐞: 𝐌𝐢𝐤𝐚𝐬𝐚 ⚔️
+│⋊ 𝐏𝐫𝐞𝐟𝐢𝐱: ${this.client.config.prefix}
+│⋊ 𝐎𝐰𝐧𝐞𝐫: https://www.instagram.com/akuma__24/?hl=en
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
